@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: rgb(233, 248, 211);
+    text-align: center;
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+.description {
+    padding: 30px;
+    text-align: start;
+}
+
+.start_btn {
+    padding: 30px;
+}
+
+.btn, a.btn, button.btn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    letter-spacing: 0.1em;
+    color: #212529;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+
+.btn--yellow {
+    color: #000;
+    background-color: #fff100;
+    border-bottom: 5px solid #ccc100;
+}
+
+.btn--yellow:hover {
+    margin-top: 3px;
+    color: #000;
+    background: #fff20a;
+    border-bottom: 2px solid #ccc100;
+}
+
+.twitter_btn {
+    padding: 30px;
+}
